@@ -41,7 +41,7 @@ def main():
     st.write("<h1><center>Applicant Tracking System</center></h1>", unsafe_allow_html=True)
 
 
-    with open('src/ATS.json') as anim_source:
+    with open('ATS.json') as anim_source:
         animation = json.load(anim_source)
     st_lottie(animation, 1, True, True, "high", 200, -200)
 
