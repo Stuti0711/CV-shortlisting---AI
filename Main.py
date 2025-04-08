@@ -10,7 +10,7 @@ from streamlit_lottie import st_lottie
 
 
 # Load the environment variables from the .api file
-API_KEY = "AIzaSyCodd_6dY8XiptRZR81x6caAGvrKdA1g28"
+API_KEY = "GEMINI API KEY"
 genai.configure(api_key=API_KEY)
 
 # Configure the GenAI API using the API key
